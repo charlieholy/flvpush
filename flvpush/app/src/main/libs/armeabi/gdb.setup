@@ -1,0 +1,3 @@
+set solib-search-path E:/qk_flvqk/flvqk/app/src/main//obj/local/armeabi
+source C:/android-ndk-r10d/prebuilt/common/gdb/common.setup
+directory C:/android-ndk-r10d/platforms/android-18/arch-arm/usr/include E:/qk_flvqk/flvqk/app/src/main//jni/../librtmp dump/nativeutils_MyRtmp.h C:/android-ndk-r10d/sources/cxx-stl/system

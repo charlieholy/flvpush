@@ -1,0 +1,12 @@
+---- datalength Matches (13 in 1 files) ----
+Simplest_librtmp_sendflv.cpp:	uint32_t datalength=0;		
+Simplest_librtmp_sendflv.cpp:		if(!ReadU24(&datalength,fp))
+Simplest_librtmp_sendflv.cpp:			fseek(fp,datalength+4,SEEK_CUR);
+Simplest_librtmp_sendflv.cpp:		if(fread(packet->m_body,1,datalength,fp)!=datalength)
+Simplest_librtmp_sendflv.cpp:		packet->m_nBodySize  = datalength;
+Simplest_librtmp_sendflv.cpp:	uint32_t datalength=0;
+Simplest_librtmp_sendflv.cpp:		if(!ReadU24(&datalength,fp))
+Simplest_librtmp_sendflv.cpp:		pFileBuf=(char*)malloc(11+datalength+4);
+Simplest_librtmp_sendflv.cpp:		memset(pFileBuf,0,11+datalength+4);
+Simplest_librtmp_sendflv.cpp:		if(fread(pFileBuf,1,11+datalength+4,fp)!=(11+datalength+4))
+Simplest_librtmp_sendflv.cpp:		if (!RTMP_Write(rtmp,pFileBuf,11+datalength+4)){
